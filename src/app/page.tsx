@@ -5,7 +5,8 @@ export default async function Home() {
   return (
     <main className="p-8">
       <h1 className="text-2xl font-bold">TinTrack</h1>
-      <pre>{error ? error.message : JSON.stringify(data, null, 2)}</pre>
+      <a href="/menu" className="text-blue-600 underline">Go to menu</a>
+      {/* <pre>{error ? error.message : JSON.stringify(data, null, 2)}</pre> */}
     </main>
   )
 }
