@@ -4,7 +4,7 @@ import { revalidatePath } from 'next/cache'
 import { supabase } from '@/lib/supabase'
 
 function fail(message: string): never {
-  throw new Error(message)
+  throw new Error(message) 
 }
 
 export async function addCategory(formData: FormData) {
